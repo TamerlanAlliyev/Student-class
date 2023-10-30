@@ -1,9 +1,4 @@
-﻿Student student = new Student();
+Student student = new Student("Tamerlan","Aliyev","P237",95,false);
 
-student.Name;
-student.SurName;
-student.Group;
-student.Point;
-student.IsGraduated;
-
-student.ShowInfo()
+student.FullName();
+student.FullInfo();
